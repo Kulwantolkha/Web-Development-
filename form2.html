@@ -1,0 +1,48 @@
+   <h5> Types of Forms</h5>
+    <p>Now we will se different methods for a form</p>
+    <form>
+        <label for="a">Name:</label><br>
+        <input type="textbox" id="a" name="a" value="Write your name here..."><br>
+        <label for="b">Do you like cars?</label>
+        <input id="b" type="radio" name="b">
+        <label for="b">Yes</label>
+        <input type="radio" id="b" name="b">
+        <label for="b">हा </label><br>
+        <input type="checkbox" name="c" id="c">
+        <label for="c">I'm a Indian</label><br>
+        <label for="cars">Which car brand do you like?</label>
+        <select id="cars" name="cars">
+            <option value="Hyundai" selected>Hyundai</option>
+            <option value="Maruti">Maruti</option>
+            <option value="Tata">Tata</option>
+            <option value="Mahindra">Mahindra</option>
+        </select><br>
+        <label for="cars2">In case you like more than one car</label>
+        <select id="cars2" name="cars2" multiple>
+            <option value="Hyundai">Hyundai</option>
+            <option value="Maruti">Maruti</option>
+            <option value="Tata">Tata</option>
+            <option value="Mahindra">Mahindra</option>
+        </select><br>
+        <textarea id="textarea" rows="10" cols="30">Write you reason for selecting the brand in above question</textarea>
+        <fieldset>
+            <legend>Details:</legend>
+            <label for="t">Budget</label>
+            <input name="t" list="t">
+            <datalist id="t">
+                <option value="4-6 lakh"></option>
+                <option value="6-10 lakh"></option>
+                <option value="1o-14 lakh"></option>
+                <option value="above"></option>
+            </datalist><br>
+            <label for="i">Color</label>
+            <input name="color" list="i">
+            <datalist id="i">
+                <option value="Black"></option>
+                <option value="White"></option>
+                <option value="Silver"></option>
+                <option value="Other"></option>
+            </datalist><br>
+            <input type="Button" name="Button" value="Submit">
+        </fieldset>
+    </form>
